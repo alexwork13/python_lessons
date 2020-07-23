@@ -6,3 +6,5 @@ for item in list1:
     list2 = [x for x in item ]
     if list2[0] == 's':
         print(item)
+
+#comment 
