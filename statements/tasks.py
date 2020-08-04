@@ -114,16 +114,18 @@
 # # проверка
 # print(summer_69([1, 3, 5]))
 
-def spy_game(nums):
-    str1 = ""
-    condition = False
-    for i in nums:
-        if i == 0:
-            str1 += 'o'
-        if i == 7:
-            str1 += 's'
-        if str1 == 'oos':
-            condition = True
-    return condition
 
-print(spy_game([1,7,2,0,4,5,0]))
+#### spy_game: Напишите функцию, которая берёт список чисел, и возвращает True, если в списке содержатся числа 0 0 7 в указанном порядке. 
+# def spy_game(nums):
+#     str1 = ""
+#     condition = False
+#     for i in nums:
+#         if i == 0:
+#             str1 += 'o'
+#         if i == 7:
+#             str1 += 's'
+#         if str1 == 'oos':
+#             condition = True
+#     return condition
+
+# print(spy_game([1,7,2,0,4,5,0]))
